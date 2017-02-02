@@ -1,23 +1,23 @@
 <snippet>
     <content><![CDATA[`timescale 1ns / 1ps
 //===========================================================================
-// COPYRIGHT(c)2013. Samsung SRC-SZ
+// COPYRIGHT(c)
 // All rights reserved
 //===========================================================================
 // Module Name     :  ${1/\.v$//g}
 // File   Name     :  ${1:$TM_FILENAME}
-// Tool versions   :  vivado 2013.3 
-// Simulator       :  ISIM/Windows 7
+// Tool versions   :  vivado 2016.2
+// Simulator       :  XSIM
 // Description     :  ${2:}
-//                    
-//                    
-//                    
-// Author          :  Cheng Yang ( cheng.yang12@samsung.com )
+//
+//
+//
+// Author          :  Cheng Yang ( yangchengic@163.com )
 //
 //===========================================================================
 // Revision Number :  V1.0.0
 // Date of Change  :  ${3:}
-// Modifier        :  Cheng Yang ( cheng.yang12@samsung.com )
+// Modifier        :  Cheng Yang ( yangchengic@163.com )
 // Description     :  File Created
 //
 //===========================================================================
@@ -31,7 +31,7 @@ module ${1/\.v$//g} ${4:
     //=======================================================================
     //                 PARAMETER
     //=======================================================================
-    parameter 
+    parameter
 
     )
 
