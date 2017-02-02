@@ -1,0 +1,63 @@
+Verilog Plugin Development:
+
+
+
+Functions:
+ ☐ auto definition
+ ☐ auto instantiation
+ ☐ alignments
+ ☐ auto indentation
+
+
+
+notes:
+ ☐ there are some blocks (can be UPPER CASE)
+	1)    //                 PARAMETER
+	2)    //                 INPUT_AND_OUTPUT
+	3)    //                 WIRE_AND_REG
+	4)    //                 MAIN_CODE
+  5)    //                 SPLIT
+ ☐ some coding rules
+   ☐ definitions and code starts from the second indent
+   ☐ generate starts from the first indent
+   ☐ split
+ ☐ no indentations only spaces
+
+
+aligments:
+ ☐ the lines that need to be aligned are all ended with ";" or "," after getting rid of the comments
+ ☐ more advance function is done
+ ☐ words in [] may be aligned right side
+ ☐ rewrite this function with re.match
+ ☐ problems to much
+
+Auto Definition:
+ ✔ problem when i_phase\b @done (14-07-17 20:33)
+ ☐ auto port def is added
+
+
+Auto Instantiation:
+ ☐ the generated coding block is above the module
+ ✔ the output and the last comma is not added to the function @done (14-07-15 17:21)
+ ☐ add comments after ports
+
+
+
+Go to Definition:
+ ☐ may be just show definition instead of going to definition is a better way
+ ☐     reg [3:0]               ch_enable_d1,ch_enable_d2; 
+   wrong with this case
+
+
+
+
+Todo:
+ ✔ learn to parse files @done (14-07-17 20:28)
+ ✔ learn to jump somewhere @done (14-07-17 20:28)
+ ☐
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+wire  [${2:DATA_WIDTH}-1:0]  ${1:sname}_s[7:0];
+
+assign {${3:${1:sname}_s[7],${1:sname}_s[6],${1:sname}_s[5],${1:sname}_s[4],}${1:sname}_s[3],${1:sname}_s[2],${1:sname}_s[1],${1:sname}_s[0]} = ${1:sname} ;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>split</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.verilog</scope>
+</snippet>

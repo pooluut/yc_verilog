@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+always@( posedge i_clk or posedge ${1:rst})
+begin
+    if ($1==1'b1)
+        ${2:begin
+            $0
+        end}
+    else
+        $2
+end
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>always</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.verilog</scope>
+</snippet>

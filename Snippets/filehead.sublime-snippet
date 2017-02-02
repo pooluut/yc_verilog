@@ -1,0 +1,77 @@
+<snippet>
+    <content><![CDATA[`timescale 1ns / 1ps
+//===========================================================================
+// COPYRIGHT(c)2013. Samsung SRC-SZ
+// All rights reserved
+//===========================================================================
+// Module Name     :  ${1/\.v$//g}
+// File   Name     :  ${1:$TM_FILENAME}
+// Tool versions   :  vivado 2013.3 
+// Simulator       :  ISIM/Windows 7
+// Description     :  ${2:}
+//                    
+//                    
+//                    
+// Author          :  Cheng Yang ( cheng.yang12@samsung.com )
+//
+//===========================================================================
+// Revision Number :  V1.0.0
+// Date of Change  :  ${3:}
+// Modifier        :  Cheng Yang ( cheng.yang12@samsung.com )
+// Description     :  File Created
+//
+//===========================================================================
+
+
+
+
+
+module ${1/\.v$//g} ${4:
+    #(
+    //=======================================================================
+    //                 PARAMETER
+    //=======================================================================
+    parameter 
+
+    )
+
+    }(
+    //=======================================================================
+    //                 INPUT_AND_OUTPUT
+    //=======================================================================
+    input
+
+
+);
+
+
+    //=======================================================================
+    //                 WIRE_AND_REG
+    //=======================================================================
+
+
+
+
+
+    //======================================================================
+    //                 MAIN_CODE
+    //======================================================================
+
+
+
+
+
+
+
+
+
+endmodule
+
+
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>filehead</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.verilog</scope>
+</snippet>

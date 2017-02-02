@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[always@( posedge i_clk or posedge i_rst)
+begin
+    if (i_rst==1'b1)
+        begin
+            rst_d1 <= 1'b1;
+            rst    <= 1'b1;
+        end
+    else
+        begin
+            rst_d1 <= i_rst;
+            rst    <= rst_d1;
+        end
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reset</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.verilog</scope>
+</snippet>

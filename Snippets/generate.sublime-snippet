@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[genvar ${1:i} ;
+generate for (${1:i}=0 ; ${1:i} < ${2:NUM} ; ${1:i}=${1:i}+1)
+begin : ${1:i}_loop
+    $3
+end //: ${1:i}_loop
+endgenerate
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>generate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.verilog</scope>
+</snippet>
